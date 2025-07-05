@@ -136,13 +136,28 @@ body {
 
 .contact-form button {
   align-self: flex-start;
+  padding: 0.75rem 1.25rem;
+  background-color: #0a8754;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #056140;
 }
 
 /* Budget Table */
+.table-container {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 1.5rem;
+  min-width: 500px;
 }
 
 thead th {
@@ -165,17 +180,6 @@ tbody tr:nth-child(even) {
 tbody tr:last-child {
   background-color: #e6f2ea;
   font-weight: bold;
-}
-
-/* Future Scaling List */
-.section ul {
-  margin-top: 0.5rem;
-  padding-left: 1.25rem;
-}
-
-.section ul li {
-  margin-bottom: 0.5rem;
-  list-style: disc;
 }
 
 /* Footer */

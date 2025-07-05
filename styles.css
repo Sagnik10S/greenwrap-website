@@ -186,3 +186,66 @@ footer {
   padding: 1rem 0;
   margin-top: 2rem;
 }
+
+/* 🔁 Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #064420;
+    border-top: 1px solid #0a8754;
+  }
+
+  .hero {
+    height: auto;
+    padding: 3rem 1rem;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section {
+    padding: 1.25rem;
+    margin: 1rem;
+  }
+
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}
